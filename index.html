@@ -27,6 +27,21 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <script>
+  function toggleReadMore() {
+    var content = document.querySelector('.content');
+    var btn = document.getElementById('readMoreBtn');
+
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+      btn.innerHTML = 'Read Less';
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+      btn.innerHTML = 'Read More';
+    }
+  }
+  </script>
+
   <!-- =======================================================
   * Template Name: iPortfolio
   * Updated: Jan 09 2024 with Bootstrap v5.3.2
@@ -255,7 +270,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6" data-aos="fade-up" style=" max-height: 6000px; overflow: hidden;">
+          <div class="col-lg-6" data-aos="fade-up" style=" max-height: 3000px; overflow: hidden;">
             <h3 class="resume-title">Journal Papers</h3>
           <div class="resume-item">
             <p><a href="#" style="color: black;"><b>Hybrid Whale and Gray Wolf Deep Learning Optimization Algorithm for Prediction
