@@ -31,12 +31,13 @@
   function toggleReadMore() {
     var content = document.getElementById('publications');
     var btn = document.getElementById('readMoreBtn');
+    var max = content.scrollHeight + 'px';
 
-    if (content.style.maxHeight == '7000px') {
+    if (content.style.maxHeight == max) {
       content.style.maxHeight = '2000px';
       btn.innerHTML = 'View all';
     } else {
-      content.style.maxHeight = '7000px';
+      content.style.maxHeight = max + 'px';
       btn.innerHTML = 'View less';
     }
   }
