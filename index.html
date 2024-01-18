@@ -34,10 +34,10 @@
 
     if (content.style.maxHeight) {
       content.style.maxHeight = null;
-      btn.innerHTML = 'Read Less';
+      btn.innerHTML = 'View less';
     } else {
       content.style.maxHeight = content.scrollHeight + 'px';
-      btn.innerHTML = 'Read More';
+      btn.innerHTML = 'View all';
     }
   }
   </script>
@@ -1021,6 +1021,7 @@
         </div>
 
       </div>
+      <button id="readMoreBtn" onclick="toggleReadMore()">View all</button>
     </section><!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
