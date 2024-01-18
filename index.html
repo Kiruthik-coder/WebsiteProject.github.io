@@ -31,6 +31,7 @@
   function toggleReadMore() {
     var content = document.getElementById('publications');
     var btn = document.getElementById('readMoreBtn');
+    alert("content.scrollHeight + 'px'");
 
     if (content.style.maxHeight == '7000px') {
       content.style.maxHeight = '2000px';
