@@ -1108,7 +1108,7 @@ section {
 #readMoreBtn{
   margin-top: 20px;
   text-align: center;
-  margin-left: 535px;
+ /* margin-left: 535px;*/
 }
 
 
@@ -1196,4 +1196,8 @@ section {
 .btn-danger:hover {
   background: #c0392b;
   color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
 }
