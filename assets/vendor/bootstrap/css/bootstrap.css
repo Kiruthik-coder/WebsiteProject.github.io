@@ -8995,9 +8995,9 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius-xxl) !important;
 }
 
-.rounded-circle {
+/*.rounded-circle {
   border-radius: 50% !important;
-}
+}*/
 
 .rounded-pill {
   border-radius: var(--bs-border-radius-pill) !important;
