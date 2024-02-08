@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background:#dadada;
+  background:#f0f0f0;
   overflow-y: auto;
 }
 
